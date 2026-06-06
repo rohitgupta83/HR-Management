@@ -1,0 +1,37 @@
+{
+    "mcpServers": {
+        "Salesforce": {
+          "type": "stdio",
+          "command": "npx",
+          "args": [
+            "-y",
+            "@salesforce/mcp",
+            "--orgs",
+            "DEFAULT_TARGET_ORG",
+            "--toolsets",
+            "all"
+          ]
+        },
+        "mcp-atlassian": {
+          "command": "uvx",
+          "args": [
+            "mcp-atlassian"
+          ],
+          "env": {
+            "JIRA_URL": "https://rohit-kumar-gupta.atlassian.net",
+            "JIRA_USERNAME": "guptr494@gmail.com",
+            "JIRA_API_TOKEN": "ATATT3xFfGF05_OYJGt_x-R6-I8HejhmV6rCV3WTlUT-pRwe85NI3Hw7pvRTfX7rDjupbySWTQ1fnYjrMNjy1nVaUbDktsBB3us0IpHphYV2NhQrJfUgkV1dhH_qBdXKRo_JfYhL2edRTbiRotE2B1XbjgWa6vxdezm2NwrbVZ2uV2ZSBizujmo=AC186BF5"
+          }
+        },
+        "github": {
+          "command": "npx",
+          "args": [
+            "-y",
+            "@modelcontextprotocol/server-github"
+          ],
+          "env": {
+            "GITHUB_PERSONAL_ACCESS_TOKEN": "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"
+          }
+        }
+      }
+    }

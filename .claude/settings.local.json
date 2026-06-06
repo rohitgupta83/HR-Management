@@ -1,0 +1,7 @@
+{
+  "enabledMcpjsonServers": [
+    "Salesforce",
+    "mcp-atlassian",
+    "github"
+  ]
+}
