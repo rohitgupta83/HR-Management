@@ -3,6 +3,7 @@
     <fullName>Total_Applications__c</fullName>
     <externalId>false</externalId>
     <label>Total Applications</label>
+    <summarizedField>Application__c.Id</summarizedField>
     <summaryForeignKey>Application__c.Job_Position__c</summaryForeignKey>
     <summaryOperation>Count</summaryOperation>
     <trackHistory>false</trackHistory>

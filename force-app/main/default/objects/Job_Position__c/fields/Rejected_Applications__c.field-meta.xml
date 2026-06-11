@@ -3,6 +3,7 @@
     <fullName>Rejected_Applications__c</fullName>
     <externalId>false</externalId>
     <label>Rejected Applications</label>
+    <summarizedField>Application__c.Id</summarizedField>
     <summaryFilterItems>
         <field>Application__c.Stage__c</field>
         <operation>equals</operation>

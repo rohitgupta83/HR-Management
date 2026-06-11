@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomTab xmlns="http://soap.sforce.com/2006/04/metadata">
     <customObject>true</customObject>
-    <motif>Custom19: Briefcase</motif>
+    <defaultVisibility>DefaultOn</defaultVisibility>
+    <motif>custom:custom42</motif>
     <label>Job Positions</label>
 </CustomTab>

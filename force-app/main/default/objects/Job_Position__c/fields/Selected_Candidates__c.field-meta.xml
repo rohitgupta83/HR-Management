@@ -3,6 +3,7 @@
     <fullName>Selected_Candidates__c</fullName>
     <externalId>false</externalId>
     <label>Hired Candidates</label>
+    <summarizedField>Application__c.Id</summarizedField>
     <summaryFilterItems>
         <field>Application__c.Stage__c</field>
         <operation>equals</operation>
