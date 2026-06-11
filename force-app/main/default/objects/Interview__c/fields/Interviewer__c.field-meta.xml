@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Interviewer__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <externalId>false</externalId>
+    <label>Interviewer</label>
+    <referenceTo>User</referenceTo>
+    <relationshipName>Interviews</relationshipName>
+    <trackHistory>false</trackHistory>
+    <type>Lookup</type>
+    <inlineHelpText>Salesforce User conducting this interview round. Marked Required on the page layout (platform does not allow schema-required Lookup(User) fields).</inlineHelpText>
+</CustomField>

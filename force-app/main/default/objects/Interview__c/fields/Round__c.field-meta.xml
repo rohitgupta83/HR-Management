@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Round__c</fullName>
+    <externalId>false</externalId>
+    <label>Interview Round</label>
+    <required>true</required>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <inlineHelpText>Which stage of the interview loop this round represents.</inlineHelpText>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>L1 - Technical Screening</fullName>
+                <default>true</default>
+                <label>L1 - Technical Screening</label>
+            </value>
+            <value>
+                <fullName>L2 - Technical Deep Dive</fullName>
+                <default>false</default>
+                <label>L2 - Technical Deep Dive</label>
+            </value>
+            <value>
+                <fullName>L3 - System Design</fullName>
+                <default>false</default>
+                <label>L3 - System Design</label>
+            </value>
+            <value>
+                <fullName>HR - Behavioral &amp; Culture Fit</fullName>
+                <default>false</default>
+                <label>HR - Behavioral &amp; Culture Fit</label>
+            </value>
+            <value>
+                <fullName>Final - Director Round</fullName>
+                <default>false</default>
+                <label>Final - Director Round</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>
