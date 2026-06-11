@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <deploymentStatus>Deployed</deploymentStatus>
+    <description>Many-to-many junction between Candidate and Job Position: one candidate can apply to multiple positions, one position can receive many applications.</description>
+    <enableActivities>true</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableHistory>true</enableHistory>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableStreamingApi>true</enableStreamingApi>
+    <label>Application</label>
+    <nameField>
+        <displayFormat>APP-{0000}</displayFormat>
+        <label>Application Name</label>
+        <startingNumber>0</startingNumber>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>Applications</pluralLabel>
+    <sharingModel>ControlledByParent</sharingModel>
+</CustomObject>

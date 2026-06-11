@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Candidate__c</fullName>
+    <externalId>false</externalId>
+    <label>Candidate</label>
+    <referenceTo>Candidate__c</referenceTo>
+    <relationshipLabel>Applications</relationshipLabel>
+    <relationshipName>Applications</relationshipName>
+    <trackHistory>false</trackHistory>
+    <type>MasterDetail</type>
+    <writeRequiresMasterRead>false</writeRequiresMasterRead>
+    <inlineHelpText>Deleting the candidate cascades and deletes all related applications (standard master-detail behavior).</inlineHelpText>
+</CustomField>

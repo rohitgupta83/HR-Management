@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Rejection_Reason__c</fullName>
+    <externalId>false</externalId>
+    <label>Rejection Reason</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <inlineHelpText>Reason the candidate was rejected, if applicable.</inlineHelpText>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Over Qualified</fullName>
+                <default>false</default>
+                <label>Over Qualified</label>
+            </value>
+            <value>
+                <fullName>Under Qualified</fullName>
+                <default>false</default>
+                <label>Under Qualified</label>
+            </value>
+            <value>
+                <fullName>Salary Mismatch</fullName>
+                <default>false</default>
+                <label>Salary Mismatch</label>
+            </value>
+            <value>
+                <fullName>Failed Interview</fullName>
+                <default>false</default>
+                <label>Failed Interview</label>
+            </value>
+            <value>
+                <fullName>Position Cancelled</fullName>
+                <default>false</default>
+                <label>Position Cancelled</label>
+            </value>
+            <value>
+                <fullName>Candidate Withdrew</fullName>
+                <default>false</default>
+                <label>Candidate Withdrew</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>
